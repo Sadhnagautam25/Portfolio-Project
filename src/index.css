@@ -1,0 +1,199 @@
+@import "tailwindcss";
+
+/* Firefox */
+.macWindow {
+  scrollbar-width: thin;
+  scrollbar-color: #6b7280 transparent;
+}
+
+/* Chrome / Edge / Safari */
+.macWindow::-webkit-scrollbar {
+  width: 4px;
+}
+
+.macWindow::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.macWindow::-webkit-scrollbar-thumb {
+  background-color: #6b7280;
+  border-radius: 10px;
+}
+
+@keyframes instagramGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-instagramGradient {
+  animation: instagramGradient 4s ease infinite;
+}
+
+/* Navbar buttons hover effect */
+.macWindow .w-3 {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.macWindow .w-3:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 6px rgba(255, 0, 0, 0.6);
+}
+
+/* Window shadow for depth */
+.macWindow {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Smooth drag cursor */
+.macWindow {
+  cursor: grab;
+}
+.macWindow:active {
+  cursor: grabbing;
+}
+
+
+/* Smooth scrollbar for all content windows */
+.macWindow .overflow-y-auto::-webkit-scrollbar {
+  width: 6px;
+}
+
+.macWindow .overflow-y-auto::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 100, 100, 0.5);
+  border-radius: 3px;
+}
+
+
+/* note tab styling  */
+
+.note-tab {
+  padding: 20px;
+  line-height: 1.8; /* line spacing */
+  font-size: 15px;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont;
+  color: #dcddde;
+}
+
+/* Headings spacing */
+.note-tab h1,
+.note-tab h2,
+.note-tab h3 {
+  margin-top: 24px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+/* Paragraph spacing */
+.note-tab p {
+  margin-bottom: 14px;
+}
+
+/* List spacing */
+.note-tab ul,
+.note-tab ol {
+  padding-left: 20px;
+  margin-bottom: 14px;
+}
+
+.note-tab li {
+  margin-bottom: 6px;
+}
+
+/* Code block */
+.note-tab pre {
+  background: #f4f4f5;
+  padding: 12px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.note-tab code {
+  background: #e5e7eb;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* /terminal */
+
+/* Terminal wrapper */
+.terminal-pro {
+  background: #0b0b0b !important; /* deep black background */
+  color: #e5e7eb !important; /* light gray text */
+  height: 100%;
+  font-family: Menlo, Monaco, Consolas, monospace;
+  font-size: 14px;
+  line-height: 1.6; /* spacing between lines */
+  padding: 12px;
+}
+
+/* Terminal body (scrollable area) */
+.react-console-emulator__body {
+  background: #0b0b0b !important;
+  padding: 12px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  line-height: 1.6;
+}
+
+/* Prompt styling */
+.react-console-emulator__prompt {
+  color: #22c55e; /* green macOS prompt */
+  margin-right: 6px;
+}
+
+/* Input text */
+.react-console-emulator__input {
+  background: transparent !important;
+  color: #e5e7eb !important;
+  caret-color: #22c55e;
+  line-height: 1.6;
+}
+
+/* Messages */
+.react-console-emulator__message {
+  color: #d1d5db; /* light gray */
+  margin-bottom: 8px;
+}
+
+/* Remove focus outline */
+.react-console-emulator__input:focus {
+  outline: none;
+}
+
+/* Optional: nicer scrollbar */
+.react-console-emulator__body::-webkit-scrollbar {
+  width: 6px;
+}
+
+.react-console-emulator__body::-webkit-scrollbar-thumb {
+  background-color: #4b5563;
+  border-radius: 3px;
+}
+
+/* Glass effect for searchbar */
+.searchbar {
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(6px);
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+}
+
+/* Footer polish */
+.footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #e5e7eb;
+  text-align: center;
+  padding: 0.5rem 0;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.4);
+}

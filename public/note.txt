@@ -1,0 +1,101 @@
+# 👋 Hi, I'm **Sadhna Gautam**
+
+🚀 **Frontend Developer | HTML • CSS • Web Development Enthusiast**
+
+I’m a passionate and motivated **frontend developer** who loves building clean, responsive, and user-friendly web interfaces. My journey in web development started with curiosity, and now I consistently work on improving my skills through hands-on projects and practice.
+
+I strongly believe in **learning by doing**, and my repositories reflect my growth, experimentation, and dedication to becoming a better developer every day. ✨ 
+
+---
+
+## 🌱 About Me
+
+- 💻 Currently focusing on **Frontend Development**
+- 📘 Learning and practicing **HTML, CSS, and Git**
+- 🧠 Interested in understanding how real-world websites are built
+- 🔁 Believe in consistency, practice, and continuous improvement
+- 🤝 Open to collaboration and feedback
+
+---
+
+## 🛠️ Tech Stack & Skills
+
+**Frontend**
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- TypeScript
+- React.js
+- React Hooks
+- Redux / Redux Toolkit
+- Next.js
+- Tailwind CSS
+- Sass / SCSS
+- Responsive Design
+- CSS Grid & Flexbox
+- DOM Manipulation
+- REST API Integration
+- Form Validation
+- Web Animations (CSS & JS)
+- SEO Basics for Frontend
+ 
+
+**Tools & Platforms**
+- Git  
+- GitHub  
+- VS Code  
+
+**Concepts**
+- Responsive Web Design  
+- Basic Web Layouts  
+- Version Control with Git  
+
+---
+
+## 📂 My GitHub Projects
+
+Here are some repositories that showcase my learning journey and practical work:
+
+- 📌 **1st-github-repo-demo**  
+  My very first GitHub repository — marking the start of my development journey 🎉
+
+- 📌 **HTML-projects**  
+  A collection of beginner-friendly HTML projects to practice structure and layout.
+
+- 📌 **CSS-with-Anuj-sir**  
+  CSS practice repository focusing on styling, layouts, and design concepts.
+
+- 📌 **Resume-build-with-the-help-of-HTML**  
+  A resume created using pure HTML, demonstrating basic web page structure.
+
+- 📌 **git-all-commands-**  
+  A helpful reference repository containing commonly used Git commands.
+
+---
+
+## 🎯 Goals
+
+- Strengthen my frontend fundamentals  
+- Build more real-world web projects  
+- Learn JavaScript and modern frameworks next  
+- Create visually appealing and functional websites  
+
+---
+
+## 📈 What You'll Find Here
+
+✔️ Practice projects  
+✔️ Learning experiments  
+✔️ Beginner-friendly code  
+✔️ Continuous improvements  
+
+Each repository represents a step forward in my developer journey 🚶‍♀️💻
+
+---
+
+## 📬 Let’s Connect
+
+Feel free to explore my repositories, star ⭐ the ones you like, or share suggestions.  
+I’m always excited to learn, improve, and connect with fellow developers!
+
+Thanks for visiting my GitHub profile! 😊
