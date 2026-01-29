@@ -1,8 +1,8 @@
 import React from "react";
-import FooterLeft from "./footerLeft";
-import FooterCenter from "./FooterCenter";
-import FooterRight from "./FooterRight"
+import FooterLeft from "./FooterLeft"; // correct case
 
+import FooterCenter from "./FooterCenter";
+import FooterRight from "./FooterRight";
 
 const Footer = () => {
   return (
@@ -17,10 +17,9 @@ const Footer = () => {
     px-4 text-white
   "
     >
-
-      <FooterLeft/>
-      <FooterCenter/>
-      <FooterRight/>
+      <FooterLeft />
+      <FooterCenter />
+      <FooterRight />
     </div>
   );
 };
