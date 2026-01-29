@@ -1,16 +1,40 @@
-# React + Vite
+📁 Portfolio‑Project Window OS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, portfolio web application built using React.js, Redux, and Tailwind CSS to showcase skills, projects, and contact information in a sleek, professional layout. ⭐
 
-Currently, two official plugins are available:
+📌 About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository contains a full‑featured personal portfolio website created with industry‑standard tools and workflows. It highlights my work, experience, and technical skills, and delivers a polished frontend interface using modern technologies.
+The project uses:
 
-## React Compiler
+⚛️ React for UI development
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📦 Redux for state management
 
-## Expanding the ESLint configuration
+🎨 Tailwind CSS for utility‑first styling
+(The combination ensures a scalable, maintainable, and responsive design.)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Features
+
+✔️ Professional portfolio sections (About, Projects, Skills, Contact)
+✔️ Redux state management for scalable application architecture
+✔️ Tailwind utility‑first CSS for highly customizable styles
+✔️ Easy to extend and personalize
+
+🛠️ Tech Stack
+Technology	Purpose
+React.js	Front‑end UI library
+Redux	Global state management
+Tailwind CSS	Styling & layout
+Vite / npm	Development tooling (bundling & scripts)
+📂 Project Structure
+├── public/                # Static files
+├── src/
+│   ├── components/        # React components
+│   ├── redux/             # Redux store & slices
+│   ├── assets/            # Images, icons, data
+│   ├── App.jsx            # Main app file
+│   └── index.jsx          # Entry point
+├── tailwind.config.js     # Tailwind config
+├── package.json           # NPM dependencies & scripts
+└── README.md              # This file
