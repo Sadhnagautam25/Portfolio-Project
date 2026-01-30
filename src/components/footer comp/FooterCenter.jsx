@@ -43,7 +43,7 @@ const FooterCenter = () => {
       <DockIcon
         index={3}
         windowId="linkedin"
-        src="/public/Iinkedin.svg"
+        src="/Iinkedin.svg"
         gradient="from-[#0A66C2] to-[#004182]"
         hoveredIndex={hoveredIndex}
         setHoveredIndex={setHoveredIndex}
